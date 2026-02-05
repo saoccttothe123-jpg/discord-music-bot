@@ -1,7 +1,7 @@
 const fs = require("fs");
 
-fs.readdirSync("./startup").forEach(file => {
-  require(`./startup/${file}`);
+fs.readdirSync("./startup").forEach((file) => {
+	require(`./startup/${file}`);
 });
 
 const { Player } = require("discord-player");
