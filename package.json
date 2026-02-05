@@ -1,4 +1,7 @@
-{
+{"dependencies": {
+  "discord-player": "^6.6.8"
+}
+
 	"name": "ziji-bot-discord",
 	"version": "7.4.3",
 	"description": "Ziji bot discord",
