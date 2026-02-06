@@ -137,7 +137,7 @@ module.exports = {
 		 * Đổi trạng thái của kênh thoại thành tên bài hát (true | false)
 		 * Change voice channel status to song title (true | false)
 		 */
-		changeStatus: true,
+		changeStatus: false,
 	},
 
 
@@ -178,7 +178,7 @@ module.exports = {
 	 * Danh sách ID của chủ sở hữu bot (người dùng có thể thực hiện lệnh owner) ["ID admin", "ID admin", ...]
 	 * List of bot owner IDs (users who can execute owner commands) ["admin ID", "admin ID", ...]
 	 */
-	OwnerID: [],
+	OwnerID: "1160564535313322054",
 
 	/**
 	 * Danh sách ID của các server dành cho nhà phát triển ["ID server", "ID server", ...] or []
