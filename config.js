@@ -39,7 +39,7 @@ module.exports = {
 		 * Tên hoạt động của bot
 		 * Bot's activity name
 		 */
-		ActivityName: "/help",
+		ActivityName: "he.he.he.",
 
 		/**
 		 * Loại hoạt động của bot
@@ -113,7 +113,7 @@ module.exports = {
 		 * Mặc định bot sẽ rời khi không còn ai nghe
 		 * Default: bot leaves when no one is listening
 		 */
-		leaveOnEmpty: true,
+		leaveOnEmpty: false,
 
 		/**
 		 * Thời gian chờ bot sẽ rời khi không có người trong voice (ms)
@@ -125,7 +125,7 @@ module.exports = {
 		 * Mặc định bot sẽ rời khi hết bài hát
 		 * Default: bot leaves when the song ends
 		 */
-		leaveOnEnd: true,
+		leaveOnEnd: false,
 
 		/**
 		 * Thời gian chờ bot sẽ rời khi hết bài hát (ms)
